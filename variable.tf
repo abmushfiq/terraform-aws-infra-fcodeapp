@@ -17,12 +17,12 @@ variable "database_master_password" {
   default     = "postgres"
 }
 
-variable "acess" {
+variable "access_key" {
   type    = string
   default = ""
 }
 
-variable "sec" {
+variable "secret_key" {
   type    = string
   default = ""
 }

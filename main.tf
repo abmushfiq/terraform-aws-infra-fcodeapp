@@ -313,11 +313,11 @@ resource "aws_ecs_task_definition" "my-node-app-task" {
       "environment" : [
         {
           "name" : "AWS_ACCESS_KEY_ID",
-          "value" : var.acess
+          "value" : var.access_key
         },
         {
           "name" : "AWS_SECRET_ACCESS_KEY",
-          "value" : var.sec
+          "value" : var.secret_key
         }
       ],
       "memory" : 500,
